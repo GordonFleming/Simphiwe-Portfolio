@@ -7,7 +7,7 @@
         <div id="jumbo-padding">
         <MDBRow>
             <MDBCol md="4" sm="12">
-                <img src="" alt="Profile-photo">
+                <img src="\public\images\circle-cropped-pp.png" alt="Profile-photo">
             </MDBCol>
             <MDBCol md="8" sm="12">
                 <h2 class="display-4">Simphiwe Alpheus Nkosi</h2>
