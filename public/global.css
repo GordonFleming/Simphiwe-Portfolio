@@ -13,10 +13,18 @@ html, body {
     background-color: var(--variantFour);
 }
 
+.banner{
+    padding: 5rem;
+}
+
 .jumbotron{
     background-color: var(--variantOne);
 }
 
 #jumbo-padding{
     padding: 5rem;
+}
+
+i:hover{
+    color: aqua;
 }
