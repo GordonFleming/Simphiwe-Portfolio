@@ -19,6 +19,16 @@ html, body {
 
 .jumbotron{
     background-color: var(--variantOne);
+    height: 100vh;
+}
+
+@media screen and (min-width: 601px) {
+    .display-4{
+        font-size: 5em;
+    }
+    .lead{
+        font-size: 2em;
+    }
 }
 
 #jumbo-padding{
@@ -27,4 +37,9 @@ html, body {
 
 i:hover{
     color: aqua;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    line-height: 4rem;
 }
