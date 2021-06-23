@@ -71,8 +71,8 @@
         <MDBCol lg="6" md="12" sm="12">
             <MDBCard>
                 <MDBCardBody>
-                    <form name="me" method="POST">
-                        <input type="hidden" name="contact" value="me">
+                    <form name="contact-me" method="POST">
+                        <input type="hidden" name="contact" value="contact-me">
                         <p class="h4 text-center py-4">Contact Me</p>
                         <label for="defaultFormCardNameEx" class="grey-text font-weight-light">
                             Your name
