@@ -8,6 +8,8 @@
             behavior: 'smooth'
         })
     }
+
+    document.getElementById('remove-me').remove();
 </script>
 
 <MDBJumbotron fluid class="d-flex align-items-center">
@@ -69,17 +71,18 @@
         <MDBCol lg="6" md="12" sm="12">
             <MDBCard>
                 <MDBCardBody>
-                    <form>
+                    <form name="me" method="POST">
+                        <input type="hidden" name="contact" value="me">
                         <p class="h4 text-center py-4">Contact Me</p>
                         <label for="defaultFormCardNameEx" class="grey-text font-weight-light">
                             Your name
                         </label>
-                        <input type="text" id="defaultFormCardNameEx" class="form-control"/>
+                        <input type="text" id="defaultFormCardNameEx" class="form-control" name="name"/>
                         <br/>
                         <label for="defaultFormCardEmailEx" class="grey-text font-weight-light">
                             Your email
                         </label>
-                        <input type="email" id="defaultFormCardEmailEx" class="form-control"/>
+                        <input type="email" id="defaultFormCardEmailEx" class="form-control" name="email"/>
                         <br>
                         <label for="subject" class="grey-text font-weight-light">Subject</label>
                         <input type="text" id="subject" class="form-control" aria-describedby="emailHelp" placeholder="Enter your subject" name="subject">
