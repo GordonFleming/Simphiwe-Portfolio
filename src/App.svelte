@@ -72,7 +72,7 @@
             <MDBCard>
                 <MDBCardBody>
                     <form name="contact-me" method="POST">
-                        <input type="hidden" name="contact" value="contact-me">
+                        <input type="hidden" name="form-name" value="contact-me">
                         <p class="h4 text-center py-4">Contact Me</p>
                         <label for="defaultFormCardNameEx" class="grey-text font-weight-light">
                             Your name
