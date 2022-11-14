@@ -37,9 +37,17 @@ button{
     }
 }
 
-#jumbo-padding{
-    padding: 5rem;
+@media screen and (max-width: 990px) {
+    #jumbo-padding{
+        padding: 1rem;
+    }
 }
+@media screen and (min-width: 990px) {
+    #jumbo-padding{
+        padding: 5rem;
+    }
+}
+
 footer{
     background-color: var(--variantFive);
     color: white;
