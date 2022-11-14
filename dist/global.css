@@ -48,6 +48,9 @@ footer{
 .footer-copyright {
     background-color: var(--variantOne);
 }
+li a i {
+    color: #d6e9f1;
+}
 li a i:hover{
     color: aqua;
 }
